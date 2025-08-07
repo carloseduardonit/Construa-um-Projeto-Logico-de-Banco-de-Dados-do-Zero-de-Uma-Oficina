@@ -13,13 +13,14 @@ Este projeto tem como objetivo representar o modelo lógico e físico de um sist
 
 ![ER](Imagem/model.jpg)
 
-- **tbl_cliente**: armazena dados dos clientes.
-- **tbl_veiculo**: veículos cadastrados por cliente.
-- **tbl_servico**: tipos de serviço com valor padrão.
-- **tbl_ordemservico**: ordens abertas para veículos.
-- **tbl_itemservico**: serviços executados por ordem.
-- **tbl_funcionario**: funcionários da oficina.
-- **tbl_funcionarioordem**: tabela associativa N:N entre funcionário e ordem.
+- **bd_oficina**: Banco de Dados da oficina
+  - **tbl_cliente**: armazena dados dos clientes.
+  - **tbl_veiculo**: veículos cadastrados por cliente.
+  - **tbl_servico**: tipos de serviço com valor padrão.
+  - **tbl_ordemservico**: ordens abertas para veículos.
+  - **tbl_itemservico**: serviços executados por ordem.
+  - **tbl_funcionario**: funcionários da oficina.
+  - **tbl_funcionarioordem**: tabela associativa N:N entre funcionário e ordem.
 
 ## 📦 Estrutura
 
@@ -32,6 +33,14 @@ Este projeto tem como objetivo representar o modelo lógico e físico de um sist
 - [PostgreSQL]() / [MySQL](https://dev.mysql.com/downloads/workbench/)
 - SQL Puro
 - Git + GitHub
+
+## 📊 Exemplos de Consultas
+
+- Listar ordens finalizadas
+- Calcular valor total por item e por ordem
+- Relacionar cliente, veículo e ordens
+- Listar funcionários por ordem de serviço
+- Agrupar ordens com valores acima de R$100
 
 ## 📁 Como usar
 
