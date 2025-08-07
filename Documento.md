@@ -9,6 +9,18 @@ Este projeto tem como objetivo representar o modelo lógico e físico de um sist
 - Relatórios de gastos e atendimentos
 - Consultas complexas utilizando SQL
 
+## 🧱 Estrutura do Banco
+
+![ER](Imagem/model.jpg)
+
+- **tbl_cliente**: armazena dados dos clientes.
+- **tbl_veiculo**: veículos cadastrados por cliente.
+- **tbl_servico**: tipos de serviço com valor padrão.
+- **tbl_ordemservico**: ordens abertas para veículos.
+- **tbl_itemservico**: serviços executados por ordem.
+- **tbl_funcionario**: funcionários da oficina.
+- **tbl_funcionarioordem**: tabela associativa N:N entre funcionário e ordem.
+
 ## 📦 Estrutura
 
 - Script de criação do banco e das tabelas (CREATE TABLE)
