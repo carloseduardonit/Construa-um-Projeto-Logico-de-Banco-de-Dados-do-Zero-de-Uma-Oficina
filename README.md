@@ -24,8 +24,10 @@
 
 O projeto deverá ser adicionado a um repositório do Github para futura avaliação do desafio de projeto. Adicione ao Readme a descrição do projeto lógico para fornecer o contexto sobre seu esquema lógico apresentado.
 
-> ALERT!
-> Acesse <a href="https://github.com/carloseduardonit/Construa-um-Projeto-L-gico-de-Banco-de-Dados-do-Zero-de-Uma-Oficina/blob/e01ce0f6b92d2873f51dbe3507f04bb1da5427a2/Documento.md" target="_blank">Acesse o Requisito</a>
+
+> [!IMPORTANT]
+>
+> <a href="https://github.com/carloseduardonit/Construa-um-Projeto-L-gico-de-Banco-de-Dados-do-Zero-de-Uma-Oficina/blob/e01ce0f6b92d2873f51dbe3507f04bb1da5427a2/Documento.md" target="_blank">Acesse o Requisito</a>
 > ![ER](Imagem/model.jpg)
 
 
