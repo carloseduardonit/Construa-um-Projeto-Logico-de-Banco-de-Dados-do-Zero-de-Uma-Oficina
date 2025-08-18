@@ -1,5 +1,7 @@
 # Sistema de Oficina Mecânica 🚗🔧
 
+[Pagina principal](/README.md)
+
 Este projeto tem como objetivo representar o modelo lógico e físico de um sistema de gestão de uma oficina mecânica. Ele foi desenvolvido a partir de um modelo conceitual utilizando o modelo Entidade-Relacionamento (ER) e convertido para um modelo relacional em SQL.
 
 ## 🎯 Funcionalidades
