@@ -1,5 +1,8 @@
 # Construa um Projeto Logico de Banco de Dados do Zero de Uma Oficina
 
+| ![Vscode](https://img.shields.io/badge/Vscode-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white) | ![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white) | ![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white) |
+
+
 > Em agradecimento a [@DIO](https://github.com/digitalinnovationone)
 
 ## Descrição do Desafio
