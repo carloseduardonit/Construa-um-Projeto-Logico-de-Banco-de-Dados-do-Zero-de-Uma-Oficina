@@ -1,5 +1,9 @@
 # Sistema de Oficina Mecânica 🚗🔧
 
+
+
+![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)![Vscode](https://img.shields.io/badge/Vscode-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)![Markdown](https://img.shields.io/badge/Markdown-000?style=for-the-badge&logo=markdown)[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SEUUSERNAME)
+
 [Pagina principal](/README.md)
 
 Este projeto tem como objetivo representar o modelo lógico e físico de um sistema de gestão de uma oficina mecânica. Ele foi desenvolvido a partir de um modelo conceitual utilizando o modelo Entidade-Relacionamento (ER) e convertido para um modelo relacional em SQL.
@@ -15,13 +19,14 @@ Este projeto tem como objetivo representar o modelo lógico e físico de um sist
 
 ![ER](Imagem/model.jpg)
 
-- **tbl_cliente**: armazena dados dos clientes.
-- **tbl_veiculo**: veículos cadastrados por cliente.
-- **tbl_servico**: tipos de serviço com valor padrão.
-- **tbl_ordemservico**: ordens abertas para veículos.
-- **tbl_itemservico**: serviços executados por ordem.
-- **tbl_funcionario**: funcionários da oficina.
-- **tbl_funcionarioordem**: tabela associativa N:N entre funcionário e ordem.
+- **bd_oficina**: Banco de Dados da oficina
+  - **tbl_cliente**: armazena dados dos clientes.
+  - **tbl_veiculo**: veículos cadastrados por cliente.
+  - **tbl_servico**: tipos de serviço com valor padrão.
+  - **tbl_ordemservico**: ordens abertas para veículos.
+  - **tbl_itemservico**: serviços executados por ordem.
+  - **tbl_funcionario**: funcionários da oficina.
+  - **tbl_funcionarioordem**: tabela associativa N:N entre funcionário e ordem.
 
 ## 📦 Estrutura
 
@@ -34,6 +39,14 @@ Este projeto tem como objetivo representar o modelo lógico e físico de um sist
 - [PostgreSQL]() / [MySQL](https://dev.mysql.com/downloads/workbench/)
 - SQL Puro
 - Git + GitHub
+
+## 📊 Exemplos de Consultas
+
+- Listar ordens finalizadas
+- Calcular valor total por item e por ordem
+- Relacionar cliente, veículo e ordens
+- Listar funcionários por ordem de serviço
+- Agrupar ordens com valores acima de R$100
 
 ## 📁 Como usar
 
