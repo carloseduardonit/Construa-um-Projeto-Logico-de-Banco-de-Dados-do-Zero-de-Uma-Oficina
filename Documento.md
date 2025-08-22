@@ -34,7 +34,7 @@ Este projeto tem como objetivo representar o modelo lógico e físico de um sist
 
 ## 🛠️ Tecnologias
 
-- [PostgreSQL]() / [MySQL](https://dev.mysql.com/downloads/workbench/)
+- [PostgreSQL](https://www.postgresql.org/download/) / [MySQL](https://dev.mysql.com/downloads/workbench/)
 - SQL Puro
 - Git + GitHub
 
